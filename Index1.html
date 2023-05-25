@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rest(Aura)</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #18f52e;
+    }
+
+    nav {
+      text-align: center;
+      background-color: #eaeaea;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: #4be369;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      background-color: #fff;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+    }
+  </style>
+  <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Rest(Aura)</h1>
+  </header>
+
+  <nav>
+    <a href="#podcast">Podcast</a>
+    <a href="#blog">Blog</a>
+    <a href="#gallery">Galería</a>
+    <a href="#surveys">Encuestas</a>
+  </nav>
+
+  <div class="news">
+    <h2>Últimas noticias</h2>
+    <div class="news-item">
+      <img src="plantacion.png" alt="Vista previa de la noticia">
+      <div>
+        <h3>La iniciativa 'Un árbol por cada habitante' busca reforestar la ciudad y promover la conciencia ambiental</h3>
+        <p>Explora cómo una comunidad local se ha unido para plantar árboles en áreas urbanas y cómo esto beneficia al medio ambiente y a la calidad de vida de los habitantes.</p>
+      </div>
+    </div>
+    <div class="news-item">
+      <img src="algasmarinas.png" alt="Vista previa de la noticia">
+      <div>
+        <h3>Investigadores desarrollan un bioplástico a base de algas marinas</h3>
+        <p>Habla sobre los avances en la búsqueda de alternativas sostenibles a los plásticos tradicionales y cómo los investigadores están utilizando algas marinas para crear bioplásticos más ecológicos</p>
+      </div>
+    </div>
+    <!-- Agrega más noticias siguiendo el mismo formato -->
+  </div>
+
+  <div class="section" id="podcast">
+    <h2>Podcast</h2>
+    <div class="podcast-item">
+      <img src="PortadaP.Ep1.png" alt="Vista previa del podcast 1">
+      <audio controls>
+        <source src="P.Ep1.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+    </div>
+    <div class="podcast-item">
+      <img src="Portada.P.Ep2.png" alt="Vista previa del podcast 2">
+      <audio controls>
+        <source src="P.Ep2.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+    </div>
+  </div>
+
+  <div class="section" id="blog">
+    <h2>Blog</h2>
+    <div id="blog-summary">
+      <h3>Título: Conciencia Ambiental: Un paso hacia un futuro sostenible</h3>
+      <h4>Introducción:</h4>
+      <p>¡Bienvenidos a nuestro blog de conciencia ambiental! En este espacio, exploraremos la importancia de cuidar y preservar nuestro entorno natural. Nuestro objetivo es fomentar la conciencia ambiental y proporcionar información práctica sobre cómo cada uno de nosotros puede contribuir a un futuro más sostenible. ¡Acompáñanos en este viaje para crear un mundo mejor para las generaciones venideras!</p>
+      <a href="#" id="show-more">Mostrar más</a>
+    </div>
+    <div id="blog-full" style="display: none;">
+      <h4>1. La importancia de la conciencia ambiental:</h4>
+      <p>En esta sección, discutiremos por qué es fundamental tener conciencia ambiental en nuestra sociedad. Exploraremos cómo nuestras acciones diarias afectan el medio ambiente y cómo podemos mitigar los impactos negativos. También destacaremos los beneficios de adoptar un enfoque más sostenible en nuestras vidas.</p>
+      <h4>2. Cambio climático: Desafío global:</h4>
+      <p>Aquí abordaremos uno de los problemas más urgentes que enfrenta nuestro planeta: el cambio climático. Analizaremos las causas y consecuencias del calentamiento global y cómo afecta a los ecosistemas y a nuestra vida cotidiana. Además, ofreceremos consejos prácticos sobre cómo reducir nuestra huella de carbono y ser más respetuosos con el clima.</p>
+      <h4>3. Consumo responsable:</h4>
+      <p>En esta sección, exploraremos la importancia de ser consumidores responsables y cómo nuestras decisiones de compra pueden tener un impacto significativo en el medio ambiente. Discutiremos la reducción de residuos, el reciclaje, la elección de productos ecoamigables y el apoyo a empresas que siguen prácticas sostenibles. También compartiremos ideas para adoptar un estilo de vida minimalista y consciente.</p>
+      <h4>4. Conservación de la biodiversidad:</h4>
+      <p>Aquí nos adentraremos en la riqueza de la biodiversidad y la necesidad de protegerla. Destacaremos la importancia de los ecosistemas saludables y cómo podemos contribuir a su conservación a nivel local y global. También discutiremos la pérdida de hábitats, la protección de especies en peligro de extinción y el papel crucial de las áreas protegidas.</p>
+      <h4>5. Educación ambiental:</h4>
+      <p>En esta sección, nos centraremos en el poder de la educación ambiental para generar cambios positivos en nuestra sociedad. Exploraremos programas educativos, iniciativas comunitarias y recursos disponibles para promover la conciencia ambiental en escuelas, hogares y comunidades. Compartiremos ideas y actividades para enseñar a las generaciones más jóvenes sobre la importancia de proteger el medio ambiente.</p>
+      <h4>6. Acciones individuales y colectivas:</h4>
+      <p>Aquí destacaremos la importancia de que todos nosotros asumamos la responsabilidad de proteger nuestro planeta. Exploraremos acciones individuales y colectivas que podemos tomar para marcar la diferencia. Desde pequeñas acciones diarias, como ahorrar energía y agua, hasta participar en proyectos de conservación y activismo ambiental, cada esfuerzo cuenta.</p>
+      <h4>Conclusión:</h4>
+      <p>En este blog de conciencia ambiental, hemos explorado la importancia de cuidar nuestro entorno natural y hemos brindado información práctica para fomentar un estilo de vida sostenible. Recordemos que todos podemos hacer la diferencia y trabajar juntos hacia un futuro más verde y próspero. ¡Únete a nosotros en este viaje hacia la conciencia ambiental y hagamos del mundo un lugar mejor para todos!</p>
+    </div>
+  </div>
+  
+  
+  <script>
+    document.getElementById('show-more').addEventListener('click', function() {
+      document.getElementById('blog-summary').style.display = 'none';
+      document.getElementById('blog-full').style.display = 'block';
+    });
+  </script>
+  
+
+  <div class="section" id="surveys">
+    <h2>Encuestas</h2>
+    <p>Respuestas promedio de los encuestados</p>
+    <img src="encuesta.jpeg" alt="Descripción de la imagen">
+  </div>
+  
+
+</html>
